@@ -183,8 +183,9 @@ body {
 
 .row {
   max-width: 114rem;
-  background-color: green;
+  background-color: orange;
   margin: 0 auto;
+  color: #000;
 }
 
 .row:not(:last-child) {
@@ -198,7 +199,7 @@ body {
 }
 
 .row [class^="col-"] {
-  background-color: orange;
+  background-color: green;
   float: left;
 }
 
@@ -212,6 +213,22 @@ body {
 
 .row .col-1-of-3 {
   width: calc((100% - 2 * 6rem) / 3);
+}
+
+.row .col-2-of-3 {
+  width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
+}
+
+.row .col-1-of-4 {
+  width: calc((100% - 3 * 6rem) / 4);
+}
+
+.row .col-2-of-4 {
+  width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem);
+}
+
+.row .col-3-of-4 {
+  width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
 }
 
 .header {
