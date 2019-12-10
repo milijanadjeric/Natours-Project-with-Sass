@@ -7,7 +7,7 @@
       padding: 1.5rem 4rem;
       display: inline-block;
       border-radius: 3rem;
-      font-size: 1.6rem;
+      font-size: $default-font-size;
     }
     &:hover {
       transform: translateY(-3px);
@@ -28,4 +28,28 @@
       animation-fill-mode: backwards;
     }
   }
+
+  .btn-text {
+    &:link,
+    &:visited {
+      color: $color-primary;
+      display: inline-block;
+      text-decoration: none;
+      transition: all 1s;
+      padding: .5rem;
+    }
+  
+  &:hover {
+    background-color: $color-primary-dark;
+    color: $color-white;
+    box-shadow: 0 1rem 0.8rem rgba($color-black, .15);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    box-shadow: 0 1rem 0.8rem rgba($color-black, .15);
+    transform: translateY(0);
+  }
+
+}
   
