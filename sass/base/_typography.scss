@@ -54,7 +54,9 @@ body {
   font-weight: 700;
   letter-spacing: 2px;
   display: inline-block;
-  color: $color-white;
+  background-image: linear-gradient(to right, $color-grey-light-2, $color-grey-dark);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .paragraph {
