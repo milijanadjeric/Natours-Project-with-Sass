@@ -12,18 +12,12 @@
         rgba($color-primary-dark, 0.8)
       );
       background-size: cover;
-      padding: 15rem 0;
+      padding: 10rem 0;
       margin-top: -10rem;
-      
-      transform: skewY(-7deg);
-
-      & > * {
-          transform: skewY(7deg);
-
-      }
+       
 }
 .section-stories {
-    padding: 15rem 0;
+    padding: 10rem 0;
     background-color: $color-grey-dark;
 
 }
